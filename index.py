@@ -54,6 +54,7 @@ if(sl.sidebar.button("Visualiser les résultats")):
          sl.info("Veuillez patienter, cette procédure prend des minutes!")
          implement_model_rnn(select_learning_rate, select_epochs, select_batch_size)
          
+         
     elif (select_model=='DNN'):
         from dnn import *
         sl.info("Veuillez patienter, cette procédure prend du minutes!")
